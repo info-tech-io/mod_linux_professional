@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "name": "linux-professional",
+  "title": "Linux для профессионалов",
+  "description": "Профессиональное администрирование Linux систем. Экспертный уровень для опытных системных администраторов.",
+  "version": "1.0.0",
+  "type": "educational",
+
+  "deployment": {
+    "subdomain": "linux-professional",
+    "repository": "mod_linux_professional",
+    "build_system": "hugo-base"
+  },
+
+  "hugo_config": {
+    "template": "default",
+    "theme": "compose",
+    "components": ["quiz-engine"],
+    "hugo_version": "0.148.0"
+  },
+
+  "metadata": {
+    "author": "InfoTech.io Team",
+    "maintainer": "info-tech-io",
+    "license": "MIT",
+    "difficulty": "expert",
+    "estimated_time": "80 hours",
+    "language": "ru",
+    "tags": ["linux", "system-administration", "enterprise", "security", "professional"]
+  },
+
+  "urls": {
+    "production": "https://linux-professional.infotecha.ru",
+    "repository": "https://github.com/info-tech-io/mod_linux_professional",
+    "issues": "https://github.com/info-tech-io/mod_linux_professional/issues"
+  },
+
+  "status": {
+    "lifecycle": "stable",
+    "last_updated": "2025-09-20",
+    "content_complete": true,
+    "testing_complete": true,
+    "review_complete": true
+  }
+}
